@@ -1,4 +1,11 @@
 3 things needs to install on VM before creating the cluster 
+steps needs to check before creating cluster
+aws version---- check aws version
+aws --version
+kubectl version
+kubectl version --short --- to check whether kubectl has been installed or not.
+
+
 1. EKSCTL --> eksctl version, eksctl - The official CLI for Amazon EKS
 
 https://eksctl.io/
