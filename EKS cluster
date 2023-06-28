@@ -1,0 +1,7 @@
+3 things needs to install on VM before creating the cluster 
+1. EKSCTL --> eksctl version, eksctl - The official CLI for Amazon EKS
+
+https://eksctl.io/
+
+2. KUBECTL --> kubectl version
+3. AWS CLI --> aws --version
