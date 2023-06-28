@@ -35,5 +35,7 @@ eksctl create cluster----it is used to create the cluster.
 
 eksctl get cluster-----it is used to check details of cluster
 
+kubectl get nodes----it is used to check details of nodes
+
 
 
