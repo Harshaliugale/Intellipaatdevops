@@ -31,3 +31,4 @@ sudo mv /tmp/eksctl /usr/local/bin
 THEN CHECK EKSCTL VERSION by below command
 eksctl version
 
+eksctl create cluster----it is used to create the cluster.
