@@ -9,3 +9,9 @@ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee  
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
 apt-get update
 apt-get install jenkins
+lsof -i -P -n | grep LISTEN-----check on which port the jenkins has been installed as we have installed on VM.we have to add this port to security group of EC2 to access it.
+After accessing the port kindly check on url by using public ip:8080 
+then pop up window came for unlocking jenkins.
+then kindly enter into /var/lib/jenkins/secrets/initialAdminPassword ---- to take password plz enter password for further porcess.
+After this select the install suggested plug in it will install. 
+then add username and all details to start using jenkins.
