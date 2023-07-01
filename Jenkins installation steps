@@ -18,3 +18,41 @@ then add username and all details to start using jenkins.
 
 Now add new item in jenkins
 +new item--- create item select freestyle and click ok and add description
+
+select git from source code management
+
+add git repository url for accessing
+
+select the branch which needs to be access
+
+select the GitHub hook trigger for GITScm polling ---------from build trigger 
+
+then go to repository of github and go to seetings and select webhook from left side and create webhook
+
+-then provide URL of jenkins like this http://3.109.213.34:8080/github-webhook/-----------take http://3.109.213.34:8080/ from jenkins and add rest like this 
+github-webhook given as anyuodate done in git hub it will get notify to jenkins through webhook configuration in github. due to this jenkins will get push request 
+that something has been updated.
+-then add webhook
+
+then come to jenkins
+then apply and save and job get created.
+
+then goto job and check something has been updated gets trigeered or not.
+then select trigger click on it then go to console output
+then take path of jenkins and check it on instances by entering it into directory cd /var/lib/jenkins/workspace/job1
+ls -l
+we will get all updation here in vm also.
+
+Now create simple 2more jobs job2 and job3
+
+select job1 and goto configure 
+then go to last in job1 select post-build actions
+select build other projects
+
+put job2 or job3 that means if job1 succefully triggers then only go to other jobs
+then apply save
+
+then go to job2 and configure
+do rest steps as above and select job3 
+
+
