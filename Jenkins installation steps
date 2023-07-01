@@ -15,3 +15,6 @@ then pop up window came for unlocking jenkins.
 then kindly enter into /var/lib/jenkins/secrets/initialAdminPassword ---- to take password plz enter password for further porcess.
 After this select the install suggested plug in it will install. 
 then add username and all details to start using jenkins.
+
+Now add new item in jenkins
++new item--- create item select freestyle and click ok and add description
