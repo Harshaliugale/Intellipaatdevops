@@ -55,4 +55,39 @@ then apply save
 then go to job2 and configure
 do rest steps as above and select job3 
 
+Now go to dashboard of jobs click on + sign after ALL button we will get 2 views 
+LIST View
+My View
+but we are not getting pipeline view here as we need to install it 
+
+to enhance the feature or add any feature in jenkins we need to do plugin
+
+to install plugin go to dashboard and select the Manage Jenkins from left.
+
+then go to plugin
+installed plugin to check all installed pluginds 
+
+if we want to install something go to Available Plugins we will get options are remain to install
+check pipeline which want to install
+select build pipeline option and install without restart
+
+select restart below option then jenkins will restart
+the login again 
+
+we will be able to see pipeline view under + sign
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
