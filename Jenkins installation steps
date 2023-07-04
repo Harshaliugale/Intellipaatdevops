@@ -54,6 +54,7 @@ then apply save
 
 then go to job2 and configure
 do rest steps as above and select job3 
+then go to git hub and do somechanges or add file and check whether triggering of one by one is getting done or not.
 
 Now go to dashboard of jobs click on + sign after ALL button we will get 2 views 
 LIST View
