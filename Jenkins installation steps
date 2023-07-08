@@ -112,6 +112,15 @@ now status of node server is enable which was cross earlier.
 now we have created the job which needs to access through slave node
 for this follow below steps
 
+create job first 
+open the job and configure it
+from first option General select ---Restrict where this project can be run
+then give server name
+then add got repo below and apply save
+
+then trigger something from slave node 
+
+
 
 
 
