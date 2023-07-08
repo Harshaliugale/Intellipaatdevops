@@ -81,6 +81,8 @@ the login again
 we will be able to see pipeline view under + sign
 
 now we will create the slave node on EC2 will learn how to connect to slave node.
+we have to access the jobs from jenkins to remote server so some settings are there and we need to connect the slave node for the same.
+
 
 then some settings require before adding nodes to jenkins as per theory we need to have JNLP connection by this JNLP our jenkin server will interact with slave 
 node. 
