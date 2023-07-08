@@ -83,14 +83,43 @@ we will be able to see pipeline view under + sign
 now we will create the slave node on EC2 will learn how to connect to slave node.
 we have to access the jobs from jenkins to remote server so some settings are there and we need to connect the slave node for the same.
 
+go to manage jenkins then select nodes and clouds and then create the new node.
 
-then some settings require before adding nodes to jenkins as per theory we need to have JNLP connection by this JNLP our jenkin server will interact with slave 
-node. 
-so go to Manage Jenkins then to Security then in Security go to Agents and make TCP port to set Random.
+then go down and give root directory path /home/ubuntu 
+jenkin server and slave node will interact with other through port.
 
-then go to nodes under manage jenkins then add NEW Node
-then fill data as per details add remote root directory is the path where our code will get saved if its in git then take below path
-/home/ubuntu/jenkins--------check steps from live class from raushan
+then go to manage jenkins then to security open the agents and select the TCP port to Random.
+
+then again go to the node server and open it and go to configure it from left side the warning has been gone now as we have set up the TCP port.
+
+now we have to do settings so that jenkins server able to connect to the salve node.
+this connection will happen through JNLP java netwrok launch protocol.
+so we have to run the command shown over the nodes to establish the above connection.
+
+so in the remote server that is on slave node java needs to install for connection and also in security groups we need to open all the ports as we dont know where the
+agent will be going to communicate-----------this is very mandatory.
+
+so connect the slave node 
+sudo su -
+apt-get update -y
+install java by command --- apt install openjdk-11-jre -y
+then copy paste the commands from node of jenkins 
+curl command will download the jar file
+then run 2nd command.
+
+now status of node server is enable which was cross earlier.
+
+now we have created the job which needs to access through slave node
+for this follow below steps
+
+
+
+
+
+
+
+
+
 
 
 
