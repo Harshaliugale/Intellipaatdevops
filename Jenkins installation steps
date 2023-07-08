@@ -87,7 +87,7 @@ so go to Manage Jenkins then to Security then in Security go to Agents and make 
 
 then go to nodes under manage jenkins then add NEW Node
 then fill data as per details add remote root directory is the path where our code will get saved if its in git then take below path
-/home/ubuntu/jenkins
+/home/ubuntu/jenkins--------check steps from live class from raushan
 
 
 
