@@ -80,6 +80,15 @@ the login again
 
 we will be able to see pipeline view under + sign
 
+now we will create the slave node on EC2.
+then some settings require before adding nodes to jenkins as per theory we need to have JNLP connection by this JNLP our jenkin server will interact with slave 
+node. 
+so go to Manage Jenkins then to Security then in Security go to Agents and make TCP port to set Random.
+
+then go to nodes under manage jenkins then add NEW Node
+then fill data as per details add remote root directory is the path where our code will get saved if its in git then take below path
+/home/ubuntu/jenkins
+
 
 
 
