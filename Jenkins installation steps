@@ -80,7 +80,8 @@ the login again
 
 we will be able to see pipeline view under + sign
 
-now we will create the slave node on EC2.
+now we will create the slave node on EC2 will learn how to connect to slave node.
+
 then some settings require before adding nodes to jenkins as per theory we need to have JNLP connection by this JNLP our jenkin server will interact with slave 
 node. 
 so go to Manage Jenkins then to Security then in Security go to Agents and make TCP port to set Random.
