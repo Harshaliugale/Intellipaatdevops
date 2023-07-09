@@ -118,7 +118,8 @@ from first option General select ---Restrict where this project can be run
 then give server name (slave node name)
 then add got repo below and apply save
 
-then trigger something from slave node and check in job whether its getting triggered in jenkins.
+then trigger something from slave node and check in job whether its getting triggered in jenkins under created job in jenkins.
+
 
 
 
