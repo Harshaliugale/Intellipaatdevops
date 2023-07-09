@@ -33,7 +33,7 @@ select the GitHub hook trigger for GITScm polling ---------from build trigger
 then go to repository of github and go to seetings and select webhook from left side and create webhook
 
 -then provide URL of jenkins like this http://3.109.213.34:8080/github-webhook/-----------take http://3.109.213.34:8080/ from jenkins and add rest like this 
-github-webhook given as anyuodate done in git hub it will get notify to jenkins through webhook configuration in github. due to this jenkins will get push request 
+github-webhook given as anyupdate done in git hub repository it will get notify to jenkins through webhook configuration in github. due to this jenkins will get push request 
 that something has been updated.
 -then add webhook
 
