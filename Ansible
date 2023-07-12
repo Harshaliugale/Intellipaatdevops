@@ -1,0 +1,8 @@
+Install Ansible in AWS
+we need to install ansible only on master no need to configure ansible on slave or hosts to which we need connection.
+on slaves we need to install python to directly connect to master.
+next needs to do SSH from master to slave without any key and any passowrd.
+
+How to install ansible on master
+
+create 2 instances in AWS.
